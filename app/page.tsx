@@ -50,24 +50,24 @@ function Hero() {
       {/* Image Gallery */}
       <div className="w-full h-[300px] md:h-[400px] lg:h-[500px] flex justify-center items-stretch gap-2 md:gap-4">
         <div className="w-12 md:w-20 lg:w-24 rounded-full overflow-hidden relative hidden sm:block">
-          <Image src="https://picsum.photos/seed/hero-s1/400/1200" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
+          <Image src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=1200&fit=crop" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
         </div>
         <div className="w-16 md:w-24 lg:w-32 rounded-full overflow-hidden relative hidden md:block">
-          <Image src="https://picsum.photos/seed/hero-s2/400/1200" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
+          <Image src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=1200&fit=crop" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
         </div>
         
         <div className="flex-1 max-w-3xl rounded-3xl overflow-hidden relative">
-          <Image src="https://picsum.photos/seed/hero-main/1200/800" alt="Main Property" fill className="object-cover" referrerPolicy="no-referrer" />
+          <Image src="https://images.unsplash.com/photo-1600607687931-570c865af11a?w=1200&h=800&fit=crop" alt="Main Property" fill className="object-cover" referrerPolicy="no-referrer" />
           <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium text-gray-800 shadow-sm">
             7 Bed Estate
           </div>
         </div>
 
         <div className="w-16 md:w-24 lg:w-32 rounded-full overflow-hidden relative hidden md:block">
-          <Image src="https://picsum.photos/seed/hero-s3/400/1200" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
+          <Image src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&h=1200&fit=crop" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
         </div>
         <div className="w-12 md:w-20 lg:w-24 rounded-full overflow-hidden relative hidden sm:block">
-          <Image src="https://picsum.photos/seed/hero-s4/400/1200" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
+          <Image src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=1200&fit=crop" alt="Property" fill className="object-cover" referrerPolicy="no-referrer" />
         </div>
       </div>
     </section>
@@ -76,12 +76,12 @@ function Hero() {
 
 function QuickSearch() {
   const categories = [
-    { name: "Beach Houses", icon: Waves, image: "https://picsum.photos/seed/beach/400/300", color: "bg-[#f4f1e1]", textColor: "text-gray-800" },
-    { name: "Cabins", icon: Trees, image: "https://picsum.photos/seed/cabin/400/300", color: "bg-[#6b8e5c]", textColor: "text-white" },
-    { name: "Large Estates", icon: HomeIcon, image: "https://picsum.photos/seed/estate/400/300", color: "bg-[#8b5a33]", textColor: "text-white" },
-    { name: "Apartment", icon: Building2, image: "https://picsum.photos/seed/apartment/400/300", color: "bg-[#2b5c8f]", textColor: "text-white" },
-    { name: "Loft", icon: Building, image: "https://picsum.photos/seed/loft/400/300", color: "bg-[#3a3a3a]", textColor: "text-white" },
-    { name: "Waterfront", icon: MapPin, image: "https://picsum.photos/seed/waterfront/400/300", color: "bg-[#3b9b9b]", textColor: "text-white" },
+    { name: "Beach Houses", icon: Waves, image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=400&h=300&fit=crop", color: "bg-[#f4f1e1]", textColor: "text-gray-800" },
+    { name: "Cabins", icon: Trees, image: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=400&h=300&fit=crop", color: "bg-[#6b8e5c]", textColor: "text-white" },
+    { name: "Large Estates", icon: HomeIcon, image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&h=300&fit=crop", color: "bg-[#8b5a33]", textColor: "text-white" },
+    { name: "Apartment", icon: Building2, image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&h=300&fit=crop", color: "bg-[#2b5c8f]", textColor: "text-white" },
+    { name: "Loft", icon: Building, image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop", color: "bg-[#3a3a3a]", textColor: "text-white" },
+    { name: "Waterfront", icon: MapPin, image: "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=400&h=300&fit=crop", color: "bg-[#3b9b9b]", textColor: "text-white" },
   ];
 
   return (
@@ -147,13 +147,13 @@ function FeaturedListings() {
       beds: 3,
       baths: 4,
       sqft: 2207,
-      mainImage: "https://picsum.photos/seed/feat1/800/500",
+      mainImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop",
       thumbs: [
-        "https://picsum.photos/seed/feat1-1/100/100",
-        "https://picsum.photos/seed/feat1-2/100/100",
-        "https://picsum.photos/seed/feat1-3/100/100",
-        "https://picsum.photos/seed/feat1-4/100/100",
-        "https://picsum.photos/seed/feat1-5/100/100",
+        "https://images.unsplash.com/photo-1600607687931-570c865af11a?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=100&h=100&fit=crop",
       ]
     },
     {
@@ -164,13 +164,13 @@ function FeaturedListings() {
       beds: 5,
       baths: 6,
       sqft: 4500,
-      mainImage: "https://picsum.photos/seed/feat2/800/500",
+      mainImage: "https://images.unsplash.com/photo-1600607687931-570c865af11a?w=800&h=500&fit=crop",
       thumbs: [
-        "https://picsum.photos/seed/feat2-1/100/100",
-        "https://picsum.photos/seed/feat2-2/100/100",
-        "https://picsum.photos/seed/feat2-3/100/100",
-        "https://picsum.photos/seed/feat2-4/100/100",
-        "https://picsum.photos/seed/feat2-5/100/100",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=100&h=100&fit=crop",
       ]
     },
     {
@@ -181,13 +181,13 @@ function FeaturedListings() {
       beds: 4,
       baths: 5,
       sqft: 3800,
-      mainImage: "https://picsum.photos/seed/feat3/800/500",
+      mainImage: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=500&fit=crop",
       thumbs: [
-        "https://picsum.photos/seed/feat3-1/100/100",
-        "https://picsum.photos/seed/feat3-2/100/100",
-        "https://picsum.photos/seed/feat3-3/100/100",
-        "https://picsum.photos/seed/feat3-4/100/100",
-        "https://picsum.photos/seed/feat3-5/100/100",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600607687931-570c865af11a?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=100&h=100&fit=crop",
+        "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=100&h=100&fit=crop",
       ]
     }
   ];
